@@ -1,0 +1,11 @@
+server:
+  port: 443
+  ssl:
+    key-store: classpath:xxx.jks
+    key-store-password: xxx
+    keyStoreType: JKS
+    keyAlias: xxxW
+spring:
+  data:
+      mongodb:
+        uri: mongodb://DormitoryMS:DormitoryMS@127.0.0.1:21111/dormitoryms

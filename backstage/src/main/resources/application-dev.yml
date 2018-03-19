@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  data:
+      mongodb:
+        uri: mongodb://DormitoryMS:DormitoryMS@127.0.0.1:21111/dormitoryms
+logging:
+  level:
+    org.springframework:
+      data: DEBUG
+      security: DEBUG

@@ -1,0 +1,15 @@
+server:
+  servlet:
+    context-path: /v1
+spring:
+  profiles:
+    active: dev
+  jmx:
+    default-domain: DormitoryMS
+logging:
+  file: logs/dormitoryms.log
+info:
+  app:
+    name: DormitoryMS
+    description: Dormitory management system
+    version: 1.0.0 Alpha
